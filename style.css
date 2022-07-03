@@ -3,6 +3,10 @@
     margin: 0px;
     font-family: Helvetica, Arial, sans-serif;
 }
+html,body{
+    height: 100%;
+    background: black;
+}
 #label{
     text-align: center;
     padding: 20px;
@@ -11,10 +15,16 @@ button{
     width: 105px;
     padding: 3px;
     border: none;
-    background: #F0F0F0;
+    background: white;
     border-radius: 8px;
     cursor: pointer;
 }
+button:hover{
+    background: black;
+    color: white;
+    transition: 0.3s;
+}
+
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_INDEX.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
@@ -50,8 +60,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 a:hover{
-    color: rgba(0, 0, 0, 1);
-    background: rgba(157, 157, 157, 1);
+    color: #FF5733;
     transition-duration: 0.5s;
 }
 .checkbtn{
@@ -98,9 +107,8 @@ a:hover{
     nav ul li a{
       font-size: 20px;
     }
-    a:hover,a.active{
-      background: none;
-      color: white;
+    a:hover{
+        color: #FF5733;
     }
     #check:checked ~ ul{
       left: 0;
@@ -111,15 +119,33 @@ a:hover{
 /* ---------------------------- OPENING -----------------------------------------  */
 
 .opening{
-    display: block;
-    height: 400px;
+    box-sizing: border-box;
+    height: 100%;
     width: 100%;
     padding: 10px;
     background:linear-gradient(to right,#333333 0.1%, black 99%);
     color: white;
+
+    background-image: url('pic1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 10s infinite ease-in-out;
 }
-.open_box{
-    margin-top: 60px;
+
+@keyframes change{
+    0%
+    {
+        background-image: url('pic1.jpg');
+    }
+    50%
+    {
+        background-image: url('pic2.jpg');
+    }
+}
+
+.open_border{
+    margin-top: 20%;
     margin-left: 30px;
     width: 200px;
     height: 120px;
@@ -127,10 +153,22 @@ a:hover{
     padding-bottom: 60px;
     padding-right: 60px;
 
-    background: #383838;
+    background: rgb(0, 0, 0,0.1);
     box-shadow: 0px 3px 8px black;
     border-radius: 20px;
 }
+.open_box{
+    width: 200px;
+    height: 120px;
+    padding: 30px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+
+    background: rgb(0, 0, 0,0.7);
+    box-shadow: 0px 3px 8px black;
+    border-radius: 20px;
+}
+
 .open_box button{
     margin-top: 20px;
     margin-left: 120px;
@@ -179,6 +217,11 @@ a:hover{
 .services .btn button{
     background: #383838;
     color: white;
+}
+.services .btn button:hover{
+    background: black;
+    color: white;
+    transition: 0.3s;
 }
 
 /*---------------------- ABOUT ME ---------------------------*/
