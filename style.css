@@ -10,6 +10,7 @@ html,body{
 #label{
     text-align: center;
     padding: 20px;
+    color: white;
 }
 button{
     width: 105px;
@@ -31,6 +32,8 @@ button:hover{
 /* NAVIGATION BAR */
 
 .navbar{
+    position: sticky;
+    top: 0px;
     width: 100%;
     height: 80px;
     background: rgba(0, 0, 0, 0.89);
@@ -76,8 +79,169 @@ a:hover{
     display: none;
 }
 
+/* ---------------------------- OPENING -----------------------------------------  */
 
-@media (max-width: 922px){
+.opening{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: white;
+
+    background-image: url('Images/Hero_F.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.open_border{
+    margin-top: 20%;
+    margin-left: 30px;
+    width: 200px;
+    height: 120px;
+    padding: 30px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+
+    background: rgb(0, 0, 0,0.21);
+    box-shadow: 0px 3px 8px black;
+    border-radius: 20px;
+}
+.open_box{
+    width: 200px;
+    height: 120px;
+    padding: 30px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    
+
+    background: rgb(0, 0, 0,0.8);
+    box-shadow: 0px 3px 8px black;
+    border-radius: 20px;
+}
+.open_box button{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+/*--------------------------- SERVICES ----------------------------------- */
+
+.services{
+    background: linear-gradient(to right, #2e2e2e , #000000);
+    min-height: 100%;
+}
+.services h1{
+    margin: 30px;
+}
+.services .serviceflex{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .servicesbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .demigod{
+    background: #F0F0F0;
+    max-width: 280px;
+    min-width: 160px;
+    text-align: justify;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.services .one{
+    background: #F0F0F0;
+    max-width: 280px;
+    min-width: 160px;
+    text-align: justify;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.services h3{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.services p{
+    text-align: justify;
+}
+.services .btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.services .btn button{
+    background: #383838;
+    color: white;
+}
+.services .btn button:hover{
+    background: black;
+    color: white;
+    transition: 0.3s;
+}
+
+/*---------------------- ABOUT ME ---------------------------*/
+
+.about{
+    background: linear-gradient(to right, #2e2e2e , #000000);
+    color: white;
+    min-height: 100%;
+}
+.about h1{
+    margin-top: 0px;
+}
+
+.about p{
+    padding: 0 30px;
+    margin: 20px;
+    text-align: justify;
+}
+.about img{
+    float: right;
+    height: 15%;
+    width: 15%;
+    border: 2px solid white;
+    margin: 45px 0px 15px 10px;
+}
+.about .aboutbutton{
+    display: flex;
+    justify-content: right;
+}
+.about button{
+    margin-bottom: 20px;
+    margin-right: 50px; 
+}
+
+/*------------------------- CONTACTS -----------------------------*/
+.contacts{
+    position: relative;
+    bottom: 0px;
+    bottom: 0px;
+    height: 70px;
+    background: rgb(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content:space-between
+}
+.contacts .social{
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.contacts h3{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 920px){
     .navbar{
         position: sticky;
         top: 0px;
@@ -113,144 +277,84 @@ a:hover{
     #check:checked ~ ul{
       left: 0;
     }
+    .opening{
+        padding-top: 20px;
+        display:flex;
+        justify-content: center;
+        background-image: url('Images/Hero_4.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .open_border{
+        padding: 0px;
+        padding-right: 50px;
+        margin: 0px;
+    }
+    .open_box{
+        margin-left: 0px;
+    }
 }
 
-
-/* ---------------------------- OPENING -----------------------------------------  */
-
-.opening{
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    background:linear-gradient(to right,#333333 0.1%, black 99%);
-    color: white;
-
-    background-image: url('pic1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.open_border{
-    margin-top: 20%;
-    margin-left: 30px;
-    width: 200px;
-    height: 120px;
-    padding: 30px;
-    padding-bottom: 60px;
-    padding-right: 60px;
-
-    background: rgb(0, 0, 0,0.1);
-    box-shadow: 0px 3px 8px black;
-    border-radius: 20px;
-}
-.open_box{
-    width: 200px;
-    height: 120px;
-    padding: 30px;
-    padding-bottom: 60px;
-    padding-right: 60px;
-
-    background: rgb(0, 0, 0,0.7);
-    box-shadow: 0px 3px 8px black;
-    border-radius: 20px;
-}
-
-.open_box button{
-    margin-top: 20px;
-    margin-left: 120px;
-}
-
-/*--------------------------- SERVICES ----------------------------------- */
-
-.services{
-    background: linear-gradient(to right, #9D9D9D 50%, #414141);
-    min-height: 500px;
-}
-.services .servicesbox{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.services .demigod{
-    background: #F0F0F0;
-    max-width: 300px;
-    min-width: 250px;
-    padding: 30px;
-    margin: 20px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-}
-.services .one{
-    background: #F0F0F0;
-    max-width: 300px;
-    min-width: 250px;
-    padding: 30px;
-    margin: 20px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-}
-.services h3{
-    padding-bottom: 15px;
-    text-align: center;
-}
-.services p{
-    text-align: justify;
-}
-.services .btn{
-    text-align: center;
-    margin-top: 20px;
-}
-.services .btn button{
-    background: #383838;
-    color: white;
-}
-.services .btn button:hover{
-    background: black;
-    color: white;
-    transition: 0.3s;
-}
-
-/*---------------------- ABOUT ME ---------------------------*/
-
-.about{
-    background:linear-gradient(to right,#333333 0.1%, black 99%);
-    color: white;
-}
-.about p{
-    padding: 0 30px;
-    margin: 20px;
-    text-align: justify;
-}
-.about .aboutbutton{
-    display: flex;
-    justify-content: right;
-}
-.about button{
-    margin-bottom: 20px;
-    margin-right: 50px; 
-}
-
-/*------------------------- CONTACTS -----------------------------*/
-.contacts{
-    position: relative;
-    bottom: 0px;
-    height: 70px;
-    background: rgb(0, 0, 0, 0.9);
-    color: white;
-    display: flex;
-    justify-content:space-between
-}
-.contacts .social{
-    width: 100px;
-    padding: 20px;
-    display: flex;
-    justify-content:space-between;
-}
-.contacts h3{
-    margin-left: 20px;
-    padding: 20px;
+@media (max-width: 480px){
+    .navbar{
+        position: sticky;
+        top: 0px;
+    }
+    label.logo{
+        font-size: 22px;
+        padding-left: 40px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.94);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover{
+        color: #FF5733;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .opening{
+        display:flex;
+        justify-content: center;
+        background-image: url('Images/Hero_4.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .open_border{
+        padding: 0px;
+        width: 250px;
+        margin-left: 0px; 
+        background: none;
+        border: none;
+        box-shadow: none;     
+    }
+    .open_box{
+        width: 160px;
+        height: 160px;
+    }
+    .open_box button{
+        margin-left: 100px;
+    }
 }
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_INDEX.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
@@ -268,16 +372,17 @@ a:hover{
     max-height: fit-content;
 }
 .aboutme h1{
-    padding: 20px 20px 0 20px;
+    padding: 40px 20px 0 20px;
     text-align: center;
 }
 .aboutme h3{
     padding: 0px;
+    margin-bottom: 40px;
     text-align: center;
 }
 .aboutme p{
     padding: 0 30px;
-    margin: 20px 20px 0 20px;
+    margin: 20px;
     text-align: justify;
 }
 
@@ -291,6 +396,11 @@ a:hover{
 
 .services{
     padding: 10px 30px;
+    min-height: 100%;
+
+}
+#s{
+    color: white;
 }
 .services h1{
     text-align: center;
