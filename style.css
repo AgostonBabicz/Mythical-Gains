@@ -146,14 +146,14 @@ a:hover{
 .services .demigod{
     background: #000000;
     color: white;
-    box-shadow: -0.1px -1px 80px 1px #FF5733;
+    box-shadow: -0.1px -1px 20px 1px #FF5733;
     max-width: 280px;
     min-width: 160px;
     text-align: justify;
     padding: 30px;
     margin: 20px;
     border-radius: 20px;
-    animation: mymove 5s infinite linear ;
+    animation: mymove 4s infinite linear ;
 }
 @keyframes mymove {
     50% {box-shadow:-0.1px -1px 1px 1px #FF5733;}
@@ -161,7 +161,7 @@ a:hover{
 .services .one{
     background: #000000;
     color: white;
-    box-shadow: -0.1px -1px 80px 1px #FF5733;
+    box-shadow: -0.1px -1px 20px 1px #FF5733;
     max-width: 280px;
     min-width: 160px;
     text-align: justify;
@@ -169,7 +169,7 @@ a:hover{
     margin: 20px;
     margin-bottom: 40px;
     border-radius: 20px;
-    animation: mymove 5s infinite linear;
+    animation: mymove 4s infinite linear;
 }
 .services h3{
     padding-bottom: 25px;
