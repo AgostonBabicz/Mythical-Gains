@@ -92,7 +92,6 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-
 }
 .open_border{
     margin-top: 20%;
@@ -113,7 +112,6 @@ a:hover{
     padding: 30px;
     padding-bottom: 60px;
     padding-right: 60px;
-    
 
     background: rgb(0, 0, 0,0.8);
     box-shadow: 0px 3px 8px black;
@@ -157,7 +155,7 @@ a:hover{
 }
 @keyframes mymove {
     50% {box-shadow:-0.1px -1px 1px 1px #FF5733;}
-  }
+}
 .services .one{
     background: #000000;
     color: white;
@@ -194,7 +192,6 @@ a:hover{
 }
 
 
-
 /*---------------------- ABOUT ME ---------------------------*/
 
 .about{
@@ -205,7 +202,6 @@ a:hover{
 .about #label{
     padding-top: 30px;
 }
-
 .about p{
     padding: 0 30px;
     margin: 20px;
@@ -228,6 +224,7 @@ a:hover{
 }
 
 /*------------------------- CONTACTS -----------------------------*/
+
 .contacts{
     position: relative;
     bottom: 0px;
