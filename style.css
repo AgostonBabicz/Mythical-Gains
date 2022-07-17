@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Helvetica;
+    font-family: Bebas Kai;
 }
 html,body{
     height: 100%;
@@ -10,7 +10,9 @@ html,body{
 #label{
     text-align: center;
     padding: 20px;
+    font-size: 60px;
     color: white;
+    text-shadow: -4px 4px 5px #FF5733;
 }
 button{
     width: 105px;
@@ -42,7 +44,7 @@ button:hover{
 label.logo{
     font-family: Bebas Kai;
     color: white;
-    font-size: 55px;
+    font-size: 47px;
     line-height: 80px;
     padding-left: 10px;
     font-weight: bold;
@@ -95,46 +97,41 @@ a:hover{
     background-repeat: no-repeat;
     background-size:cover;
 }
-.open_border{
+.open_box{
     margin-top: 20%;
     margin-left: 30px;
-    width: 200px;
+    width: 320px;
     height: 120px;
     padding: 30px;
-    padding-bottom: 60px;
-    padding-right: 60px;
-
-    background: rgb(0, 0, 0,0.21);
-    box-shadow: 0px 3px 8px black;
-    border-radius: 20px;
-}
-.open_box{
-    width: 200px;
-    height: 120px;
-    padding: 30px;
-    padding-bottom: 60px;
-    padding-right: 60px;
+    padding-bottom: 40px;
 
     background: rgb(0, 0, 0,0.8);
     box-shadow: 0px 3px 8px black;
     border-radius: 20px;
 }
-.open_box button{
+.open_box h1{
+    text-shadow: -4px 4px 5px #FF5733;
+}
+.open_box h2{
     margin-top: 20px;
-    margin-left: 120px;
+    
+}
+.open_box button{
+    margin-top: 10px;
+    margin-left: 220px;
 }
 
 /*--------------------------- SERVICES ----------------------------------- */
 
 .services{
     background: linear-gradient(to right, #2e2e2e , #000000);
-    min-height: 100%;
+    min-height: 100vh;
 }
 .services h1{
     margin-top: 20px;
 }
 .services .serviceflex .servicesbox{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,30 +143,30 @@ a:hover{
 .services .demigod{
     background: #000000;
     color: white;
-    box-shadow: -0.1px -1px 20px 1px #FF5733;
-    max-width: 280px;
+    box-shadow: -0.1px -1px 30px 1px #FF5733;
+    max-width: 1000px;
     min-width: 160px;
     text-align: justify;
     padding: 30px;
     margin: 20px;
-    border-radius: 20px;
-    animation: mymove 4s infinite linear ;
-}
-@keyframes mymove {
-    50% {box-shadow:-0.1px -1px 1px 1px #FF5733;}
+    border-radius: 8px;
+    animation: mymove 3s infinite linear ;
 }
 .services .one{
     background: #000000;
     color: white;
-    box-shadow: -0.1px -1px 20px 1px #FF5733;
-    max-width: 280px;
+    box-shadow: -0.1px -1px 30px 1px #FF5733;
+    max-width: 1000px;
     min-width: 160px;
     text-align: justify;
     padding: 30px;
     margin: 20px;
     margin-bottom: 40px;
-    border-radius: 20px;
-    animation: mymove 4s infinite linear;
+    border-radius: 8px;
+    animation: mymove 3s infinite linear;
+}
+@keyframes mymove {
+    50% {box-shadow:-0.1px -1px 1px 1px #FF5733;}
 }
 .services h3{
     padding-bottom: 25px;
@@ -184,13 +181,15 @@ a:hover{
     margin-top: 25px;
 }
 .services .btn button{
-    background: #383838;
+    border: solid 2px;
+    border-radius: 8px;
+    background: black;
     color: white;
 }
 .services .btn button:hover{
-    background: black;
-    color: white;
-    transition: 0.3s;
+    background: white;
+    color: black;
+    transition: 0.4s;
 }
 
 
@@ -249,123 +248,7 @@ a:hover{
 }
 
 
-/* ------------------------ RESPONSIVENESS ----------------------------*/
 
-@media (max-width: 920px){
-    .navbar{
-        position: sticky;
-        top: 0px;
-    }
-    label.logo{
-        font-size: 50px;
-        padding-left: 40px;
-    }
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.94);
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover{
-        color: #FF5733;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-    .opening{
-        padding-top: 20px;
-        display:flex;
-        justify-content: center;
-        background-image: url('Images/Hero_4.jfif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-    }
-    .open_border{
-        padding: 0px;
-        padding-right: 50px;
-        margin: 0px;
-    }
-    .open_box{
-        margin-left: 0px;
-    }
-}
-
-@media (max-width: 480px){
-    .navbar{
-        position: sticky;
-        top: 0px;
-    }
-    label.logo{
-        font-size: 25px;
-        padding-left: 40px;
-    }
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.94);
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover{
-        color: #FF5733;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-    .opening{
-        display:flex;
-        justify-content: center;
-        background-image: url('Images/Hero_4.jfif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-    }
-    .open_border{
-        padding: 0px;
-        width: 250px;
-        margin-left: 0px; 
-        background: none;
-        border: none;
-        box-shadow: none;     
-    }
-    .open_box{
-        width: 160px;
-        height: 160px;
-    }
-    .open_box button{
-        margin-left: 100px;
-    }
-}
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_INDEX.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
@@ -407,7 +290,6 @@ a:hover{
 .services{
     padding: 10px 30px;
     min-height: 100%;
-
 }
 #s{
     color: white;
@@ -416,14 +298,148 @@ a:hover{
     text-align: center;
     padding: 20px;
 }
-
-
+.jotform{
+    display: flex;
+    justify-content: center;
+}
+.jotform a{
+    margin: 60px;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(#FF5733,#ff7b00);
+    box-shadow: -10px 10px 40px black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.jotform a:hover{
+    color: black;
+    background: linear-gradient(#ff7b00,#FF5733);
+    transition-duration: 0.5s;
+}
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_SERVICES.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
 
-.jotform{
-    max-width: 800px;
-    margin: 10px;
-    
+/* ------------------------ RESPONSIVENESS ----------------------------*/
+
+@media (max-width: 920px){
+    .navbar{
+        position: sticky;
+        top: 0px;
+    }
+    label.logo{
+        font-size: 50px;
+        padding-left: 40px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.94);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 35px;
+    }
+    a:hover{
+        color: #FF5733;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .opening{
+        padding-top: 20px;
+        display:flex;
+        justify-content: center;
+        background-image: url('Images/Hero_4.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .open_box{
+        margin-top: 0%;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .open_box h1{
+        font-size:30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    .navbar{
+        position: sticky;
+        top: 0px;
+    }
+    label.logo{
+        font-size: 25px;
+        padding-left: 40px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.94);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 35px;
+    }
+    a:hover{
+        color: #FF5733;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .opening{
+        display:flex;
+        justify-content: center;
+        background-image: url('Images/Hero_4.jfif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .open_box{
+        margin-top: 10%;
+        width: 160px;
+        height: 160px;
+    }
+    .open_box button{
+        margin-top:10px;
+        margin-left: 80px;
+    }
+    .open_box h1{
+        font-size:30px;
+        text-align: center;
+    }
+    .open_box h2{
+        font-size: 20px;
+    }
 }
