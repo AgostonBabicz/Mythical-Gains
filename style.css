@@ -303,40 +303,47 @@ a:hover{
     list-style: "⚡";
     list-style-position: outside;
     text-align: justify;
-
+    padding-left: 10px;
 }
-.services .dg .villam li::before{
- 
-    margin: 0 16px 0 0;
+.services .dg .villam li{
+    padding-left: 15px;
 }
-
 .services .dg .szigony {
-    list-style: none;
+    list-style: "🔱";
+    list-style-position: outside;
+    text-align: justify;
+    padding-left: 10px;
 }
-.services .dg .szigony li::before{
-    content: "🔱";
-    margin: 0 16px 0 0;
+.services .dg .szigony li{
+    padding-left: 15px;
+}
+.services .dg .kevert{
+    padding-left: 10px;
+}
+.services .dg .kevert #muscle {
+    list-style: "💪";
+    list-style-position: outside;
+    text-align: justify;
+}
+.services .dg .kevert #squat {
+    list-style: "🏋️‍♂️";
+    list-style-position: outside;
+    text-align: justify;
+}
+.services .dg .kevert #stock {
+    list-style: "📈";
+    list-style-position: outside;
+    text-align: justify;
+}
+.services .dg .kevert #writing {
+    list-style: "📝";
+    list-style-position: outside;
+    text-align: justify;
+}
+.services .dg .kevert li{
+    padding-left: 15px;
 }
 
-.services .dg .kevert {
-    list-style: none;
-}
-.services .dg .kevert #muscle::before{
-    content: "💪";
-    margin: 0 16px 0 0;
-}
-.services .dg .kevert #squat::before{
-    content: "🏋️‍♂️";
-    margin: 0 16px 0 0;
-}
-.services .dg .kevert #stock::before{
-    content: "📈";
-    margin: 0 16px 0 0;
-}
-.services .dg .kevert #writing::before{
-    content: "📝";
-    margin: 0 16px 0 0;
-}
 
 .jotform{
     display: flex;
@@ -378,7 +385,7 @@ a:hover{
     .checkbtn{
       display: block;
     }
-    ul{
+    .navbar ul{
       position: fixed;
       width: 100%;
       height: 100%;
@@ -434,7 +441,7 @@ a:hover{
     .checkbtn{
       display: block;
     }
-    ul{
+    .navbar ul{
       position: fixed;
       width: 100%;
       height: 100%;
