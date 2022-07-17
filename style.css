@@ -298,6 +298,46 @@ a:hover{
     text-align: center;
     padding: 20px;
 }
+
+.services .dg .villam {
+    list-style: "⚡";
+    list-style-position: outside;
+    text-align: justify;
+
+}
+.services .dg .villam li::before{
+ 
+    margin: 0 16px 0 0;
+}
+
+.services .dg .szigony {
+    list-style: none;
+}
+.services .dg .szigony li::before{
+    content: "🔱";
+    margin: 0 16px 0 0;
+}
+
+.services .dg .kevert {
+    list-style: none;
+}
+.services .dg .kevert #muscle::before{
+    content: "💪";
+    margin: 0 16px 0 0;
+}
+.services .dg .kevert #squat::before{
+    content: "🏋️‍♂️";
+    margin: 0 16px 0 0;
+}
+.services .dg .kevert #stock::before{
+    content: "📈";
+    margin: 0 16px 0 0;
+}
+.services .dg .kevert #writing::before{
+    content: "📝";
+    margin: 0 16px 0 0;
+}
+
 .jotform{
     display: flex;
     justify-content: center;
