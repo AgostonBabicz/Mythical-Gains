@@ -2,8 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Alcubierre;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-weight:bold;
 }
 html,body{
@@ -42,10 +41,12 @@ button:hover{
 label.logo{
     font-family: Bebas Kai;
     color: white;
-    font-size: 47px;
+    font-size: 43px;
     line-height: 80px;
     padding-left: 10px;
     font-weight: bold;
+    letter-spacing: normal;
+    
 }
 nav ul{
     float: right;
@@ -63,6 +64,9 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 5px;
     text-transform: uppercase;
+    letter-spacing:normal;
+    font-weight: normal;
+
 }
 a:hover{
     color: #FF5733;
@@ -82,7 +86,6 @@ a:hover{
 }
 
 
-
 .service{
     padding: 10px 30px;
     min-height: 100%;
@@ -92,14 +95,42 @@ a:hover{
 }
 .service h1{
     font-family: Bebas Kai;
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 7px;
     text-align: center;
     padding: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    line-height: 50px;
+}
+.service p{
+    text-align: justify;
+}
+.service #hustler{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    max-width: 430px;
+    
+    border:solid #FF5733 thin;
+    border-radius: 8px;
+    text-align: justify;
+    font-weight: 8px;
 }
 .service .dg{
     letter-spacing: 0.4px;
+}
+.service p, div{
+    line-height:25px;
+}
+.service .strength{
+    margin: 20px 1px 20px 50px;
+    list-style-position: outside;
+}
+.service .strength ol li{
+    padding-left: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px 10px #FF5733;
+    line-height: 50px;
 }
 .service .dg .villam {
     list-style: "⚡";
@@ -159,14 +190,14 @@ a:hover{
     border-radius: 5px;
     cursor: pointer;
     color: white;
-    background: linear-gradient(#FF5733,#ff7b00);
+    background: linear-gradient(#FF5733, #fa9f28 80%);
     box-shadow: -10px 10px 40px black;
     text-decoration: none;
     text-transform: uppercase;
 }
 .jotform a:hover{
     color: black;
-    background: linear-gradient(#ff7b00,#FF5733);
+    background: linear-gradient(#fa9f28 80%,#FF5733);
     transition-duration: 0.5s;
 }
 
