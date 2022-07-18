@@ -287,63 +287,65 @@ a:hover{
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_SERVICES.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
-.services{
+.service{
+
     padding: 10px 30px;
     min-height: 100%;
 }
 #s{
     color: white;
 }
-.services h1{
+.service h1{
     letter-spacing: 7px;
     text-align: center;
     padding: 20px;
 }
-.services .dg{
+.service .dg{
     letter-spacing: 0.4px;
+
 }
-.services .dg .villam {
+.service .dg .villam {
     list-style: "⚡";
     list-style-position: outside;
     text-align: justify;
     padding-left: 10px;
 }
-.services .dg .villam li{
+.service .dg .villam li{
     padding-left: 15px;
 }
-.services .dg .szigony {
+.service .dg .szigony {
     list-style: "🔱";
     list-style-position: outside;
     text-align: justify;
     padding-left: 10px;
 }
-.services .dg .szigony li{
+.service .dg .szigony li{
     padding-left: 15px;
 }
-.services .dg .kevert{
+.service .dg .kevert{
     padding-left: 10px;
 }
-.services .dg .kevert #muscle {
+.service .dg .kevert #muscle {
     list-style: "💪";
     list-style-position: outside;
     text-align: justify;
 }
-.services .dg .kevert #squat {
+.service .dg .kevert #squat {
     list-style: "🏋️‍♂️";
     list-style-position: outside;
     text-align: justify;
 }
-.services .dg .kevert #stock {
+.service .dg .kevert #stock {
     list-style: "📈";
     list-style-position: outside;
     text-align: justify;
 }
-.services .dg .kevert #writing {
+.service .dg .kevert #writing {
     list-style: "📝";
     list-style-position: outside;
     text-align: justify;
 }
-.services .dg .kevert li{
+.service .dg .kevert li{
     padding-left: 15px;
 }
 
