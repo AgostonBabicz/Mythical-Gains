@@ -295,10 +295,13 @@ a:hover{
     color: white;
 }
 .services h1{
+    letter-spacing: 7px;
     text-align: center;
     padding: 20px;
 }
-
+.services .dg{
+    letter-spacing: 0.4px;
+}
 .services .dg .villam {
     list-style: "⚡";
     list-style-position: outside;
