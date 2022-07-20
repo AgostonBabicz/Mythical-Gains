@@ -44,10 +44,9 @@ label.logo{
     color: white;
     font-size: 43px;
     line-height: 80px;
-    padding-left: 10px;
+    padding-left: 30px;
+    letter-spacing: 3px;
     font-weight: bold;
-    letter-spacing: normal;
-    
 }
 nav ul{
     float: right;
@@ -67,7 +66,6 @@ nav ul li a{
     text-transform: uppercase;
     letter-spacing:normal;
     font-weight: normal;
-
 }
 a:hover{
     color: #FF5733;
@@ -88,7 +86,7 @@ a:hover{
 
 
 .service{
-    padding: 10px 30px;
+    padding: 10px 60px;
     min-height: 100%;
 }
 #s{
@@ -104,14 +102,16 @@ a:hover{
     line-height: 50px;
 }
 .service p{
+    font-size: 16px;
     text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
 }
 .service .highlight{
     color: #ffbe33;
     font-weight:bolder;
     text-transform:capitalize;
 }
-
 .service .dg{
     letter-spacing: 0.4px;
 }
@@ -119,7 +119,7 @@ a:hover{
     line-height:25px;
 }
 .service .strength{
-    margin: 0 auto;
+    margin: 10px 40px;
     list-style-position: outside;
 }
 .service .strength ol{
@@ -128,7 +128,7 @@ a:hover{
 .service .strength ol li{
     padding-left: 15px;
     font-size: 25px;
-    line-height: 35px;
+    line-height: 40px;
 }
 .service .dg .villam {
     list-style: "⚡";
@@ -208,6 +208,44 @@ a:hover{
     color: black;
     background: linear-gradient(#fa9f28 80%,#FF5733);
     transition-duration: 0.5s;
+}
+
+.contacts{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    height: 120px;
+    background: rgb(0, 0, 0, 1);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.contacts .social{
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contacts .social .icons{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts h3{
+    font-family: Bebas Kai;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.contacts a{
+    color: white;
+}
+.contacts .social .email{
+    font-family: Merriweather;
+    font-size: 10px;
+    text-transform: lowercase;
 }
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_SERVICES.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
@@ -329,6 +367,16 @@ a:hover{
         text-align: center;
     }
     .open_box h2{
+        font-size: 20px;
+    }
+    .service{
+        padding: 35px;
+    }
+    label.logo{
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+    .contacts h3{
         font-size: 20px;
     }
 }

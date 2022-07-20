@@ -44,9 +44,10 @@ button:hover{
 label.logo{
     font-family: Bebas Kai;
     color: white;
-    font-size: 47px;
+    font-size: 55px;
+    letter-spacing: 3px;
     line-height: 80px;
-    padding-left: 10px;
+    padding-left: 30px;
     font-weight: bold;
 }
 nav ul{
@@ -86,6 +87,9 @@ a:hover{
 /* ---------------------------- OPENING -----------------------------------------  */
 
 .opening{
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -98,12 +102,10 @@ a:hover{
     background-size:cover;
 }
 .open_box{
-    margin-top: 20%;
-    margin-left: 30px;
-    width: 320px;
-    height: 120px;
+    margin-left: 0px;
+    width: 300px;
+    height: 110px;
     padding: 30px;
-    padding-bottom: 40px;
 
     background: rgb(0, 0, 0,0.8);
     box-shadow: 0px 3px 8px black;
@@ -114,7 +116,6 @@ a:hover{
 }
 .open_box h2{
     margin-top: 20px;
-    
 }
 .open_box button{
     margin-top: 10px;
@@ -124,7 +125,7 @@ a:hover{
 /*--------------------------- SERVICES ----------------------------------- */
 
 .services{
-    background: linear-gradient(to right, #2e2e2e , #000000);
+    background: linear-gradient(to right, #1f1f1f , #000000);
     min-height: 100vh;
 }
 .services h1{
@@ -144,7 +145,7 @@ a:hover{
     background: #000000;
     color: white;
     box-shadow: -0.1px -1px 30px 1px #FF5733;
-    max-width: 1000px;
+    max-width: 900px;
     min-width: 160px;
     text-align: justify;
     padding: 30px;
@@ -152,11 +153,14 @@ a:hover{
     border-radius: 8px;
     animation: mymove 3s infinite linear ;
 }
+.services .demigod .highlight{
+    color: #FF5733;
+}
 .services .one{
     background: #000000;
     color: white;
     box-shadow: -0.1px -1px 30px 1px #FF5733;
-    max-width: 1000px;
+    max-width: 900px;
     min-width: 160px;
     text-align: justify;
     padding: 30px;
@@ -171,10 +175,11 @@ a:hover{
 .services h3{
     padding-bottom: 25px;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 .services p{
     text-align: justify;
+    font-size: 21px;
 }
 .services .btn{
     text-align: center;
@@ -196,7 +201,8 @@ a:hover{
 /*---------------------- ABOUT ME ---------------------------*/
 
 .about{
-    background: linear-gradient(to right, #2e2e2e , #000000);
+    margin-top: 20px;
+    background: linear-gradient(to left, #1f1f1f , #000000);
     color: white;
     min-height: 100%;
 }
@@ -204,8 +210,7 @@ a:hover{
     padding-top: 30px;
 }
 .about p{
-    padding: 0 30px;
-    margin: 20px;
+    padding: 20px 30px 40px 30px;
     text-align: justify;
 }
 .about img{
@@ -215,165 +220,49 @@ a:hover{
     border: 2px solid white;
     margin: 45px 0px 15px 10px;
 }
-.about .aboutbutton{
-    display: flex;
-    justify-content: right;
-}
-.about button{
-    margin-bottom: 20px;
-    margin-right: 50px; 
-}
 
 /*------------------------- CONTACTS -----------------------------*/
 
 .contacts{
+    width: 100%;
     position: relative;
     bottom: 0px;
-    bottom: 0px;
-    height: 70px;
-    background: rgb(0, 0, 0, 0.9);
+    height: 120px;
+    background: rgb(0, 0, 0, 1);
     color: white;
     display: flex;
-    justify-content:space-between
+    justify-content:space-between;
+    align-items: center;
 }
 .contacts .social{
-    width: 100px;
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
-    justify-content:space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contacts .social .icons{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .contacts h3{
     margin-left: 20px;
     padding: 20px;
+    font-size: 30px;
 }
-
-
-
-
+.contacts a{
+    color: white;
+}
+.contacts .social .email{
+    font-family: Merriweather;
+    font-size: 10px;
+    text-transform: lowercase;
+}
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_INDEX.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
 
-
-
-
-/* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ABOUT_ME.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
-
-.aboutme{
-    background:linear-gradient(to right,#333333 0.1%, black 99%);
-    color: white;
-    min-height: 700px;
-    max-height: fit-content;
-}
-.aboutme h1{
-    padding: 40px 20px 0 20px;
-    text-align: center;
-}
-.aboutme h3{
-    padding: 0px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-.aboutme p{
-    padding: 0 30px;
-    margin: 20px;
-    text-align: justify;
-}
-
-/* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ABOUT_ME.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
-
-
-
-
-
-/* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_SERVICES.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
-
-.service{
-
-    padding: 10px 30px;
-    min-height: 100%;
-}
-#s{
-    color: white;
-}
-.service h1{
-    letter-spacing: 7px;
-    text-align: center;
-    padding: 20px;
-}
-.service .dg{
-    letter-spacing: 0.4px;
-
-}
-.service .dg .villam {
-    list-style: "⚡";
-    list-style-position: outside;
-    text-align: justify;
-    padding-left: 10px;
-}
-.service .dg .villam li{
-    padding-left: 15px;
-}
-.service .dg .szigony {
-    list-style: "🔱";
-    list-style-position: outside;
-    text-align: justify;
-    padding-left: 10px;
-}
-.service .dg .szigony li{
-    padding-left: 15px;
-}
-.service .dg .kevert{
-    padding-left: 10px;
-}
-.service .dg .kevert #muscle {
-    list-style: "💪";
-    list-style-position: outside;
-    text-align: justify;
-}
-.service .dg .kevert #squat {
-    list-style: "🏋️‍♂️";
-    list-style-position: outside;
-    text-align: justify;
-}
-.service .dg .kevert #stock {
-    list-style: "📈";
-    list-style-position: outside;
-    text-align: justify;
-}
-.service .dg .kevert #writing {
-    list-style: "📝";
-    list-style-position: outside;
-    text-align: justify;
-}
-.service .dg .kevert li{
-    padding-left: 15px;
-}
-
-
-.jotform{
-    display: flex;
-    justify-content: center;
-}
-.jotform a{
-    margin: 60px;
-    align-items: center;
-    font-size: 40px;
-    padding: 10px 40px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    background: linear-gradient(#FF5733,#ff7b00);
-    box-shadow: -10px 10px 40px black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.jotform a:hover{
-    color: black;
-    background: linear-gradient(#ff7b00,#FF5733);
-    transition-duration: 0.5s;
-}
-
-/* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_SERVICES.HTML_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ */
 
 
 /* ------------------------ RESPONSIVENESS ----------------------------*/
@@ -440,8 +329,8 @@ a:hover{
         top: 0px;
     }
     label.logo{
-        font-size: 25px;
-        padding-left: 40px;
+        font-size: 28px;
+        letter-spacing: 1.5px;
     }
     .checkbtn{
       display: block;
@@ -479,7 +368,7 @@ a:hover{
         background-size:cover;
     }
     .open_box{
-        margin-top: 10%;
+        margin-top: 5%;
         width: 160px;
         height: 160px;
     }
@@ -492,6 +381,9 @@ a:hover{
         text-align: center;
     }
     .open_box h2{
+        font-size: 20px;
+    }
+    .contacts h3{
         font-size: 20px;
     }
 }
