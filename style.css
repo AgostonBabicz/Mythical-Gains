@@ -13,6 +13,7 @@ html,body{
     font-size: 60px;
     color: white;
     text-shadow: -4px 4px 5px #FF5733;
+    letter-spacing: 10px;
 }
 button{
     width: 105px;
@@ -207,19 +208,49 @@ a:hover{
     min-height: 100%;
 }
 .about #label{
-    padding-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 80px;
 }
-.about p{
-    padding: 20px 30px 40px 30px;
-    text-align: justify;
+.about .appear{
+    display: none;
+}
+.about .aboutflex{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 40px;
+}
+.about .aboutflex .flex-child{
+    font-size: 30px;
+}
+.about h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #FF5733;
+    text-shadow: -1px 1px 1px white;
+    text-align: center;
 }
 .about img{
-    float: right;
-    height: 15%;
-    width: 15%;
-    border: 2px solid white;
-    margin: 45px 0px 15px 10px;
+    margin: 25px;
+    margin-bottom: 80px;
+    height: 50%;
+    width: 50%;
+    display: block;
+    border-radius: 30px;
 }
+.about .content{
+    padding-bottom: 40px;
+}
+.about .content p{
+    padding: 10px 30px;
+    text-align: justify;
+    font-family: Merriweather;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
 
 /*------------------------- CONTACTS -----------------------------*/
 
@@ -245,7 +276,6 @@ a:hover{
     width: 60px;
     display: flex;
     justify-content: space-between;
-
 }
 .contacts h3{
     margin-left: 20px;
@@ -319,6 +349,22 @@ a:hover{
     }
     .open_box h1{
         font-size:30px;
+        text-align: center;
+    }
+    .about .aboutflex .flex-child{
+        display: none
+    }
+    .about .aboutflex img{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 40px auto;
+    }
+    .about .appear{
+        display: block;
+    }
+    .about .appear p{
+        padding: 0 30px;
+        font-size: 25px;
         text-align: center;
     }
 }
