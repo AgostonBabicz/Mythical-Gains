@@ -10,7 +10,7 @@ html,body{
 #label{
     text-align: center;
     padding: 20px;
-    font-size: 60px;
+    font-size: 80px;
     color: white;
     text-shadow: -4px 4px 5px #FF5733;
     letter-spacing: 10px;
@@ -223,10 +223,13 @@ a:hover{
 .about .aboutflex .flex-child{
     font-size: 30px;
 }
+.about .aboutflex .flex-child #break{
+    padding-bottom: 13px;
+}
 .about h1{
     padding-top: 20px;
     padding-bottom: 30px;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 5px;
     color: #FF5733;
     text-shadow: -1px 1px 1px white;
@@ -239,6 +242,7 @@ a:hover{
     width: 50%;
     display: block;
     border-radius: 30px;
+    border: solid 2px;
 }
 .about .content{
     padding-bottom: 40px;
@@ -248,7 +252,7 @@ a:hover{
     text-align: justify;
     font-family: Merriweather;
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 
@@ -366,6 +370,9 @@ a:hover{
         padding: 0 30px;
         font-size: 25px;
         text-align: center;
+    }
+    .about .content p{
+        font-size: 18px;
     }
 }
 
