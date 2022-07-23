@@ -112,6 +112,21 @@ a:hover{
     font-weight:bolder;
     text-transform:capitalize;
 }
+.service #big{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #ffe600;
+}
+.service #green{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #33ff00;
+}
+
 .service .dg{
     letter-spacing: 0.4px;
 }

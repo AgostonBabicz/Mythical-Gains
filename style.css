@@ -150,7 +150,7 @@ a:hover{
     min-width: 160px;
     text-align: justify;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 20px 5px 20px;
     border-radius: 8px;
     animation: mymove 3s infinite linear ;
 }
@@ -165,13 +165,16 @@ a:hover{
     min-width: 160px;
     text-align: justify;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 20px 5px 20px;
     margin-bottom: 40px;
     border-radius: 8px;
     animation: mymove 3s infinite linear;
 }
 @keyframes mymove {
     50% {box-shadow:-0.1px -1px 1px 1px #FF5733;}
+}
+.services .one .highlight{
+    color: #FF5733;
 }
 .services h3{
     padding-bottom: 25px;
@@ -217,11 +220,13 @@ a:hover{
 .about .aboutflex{
     display: flex;
     justify-content: space-around;
-    gap: 80px;
+    gap: 30px;
     padding: 40px;
 }
 .about .aboutflex .flex-child{
     font-size: 30px;
+    align-items: center;
+    
 }
 .about .aboutflex .flex-child #break{
     padding-bottom: 13px;
