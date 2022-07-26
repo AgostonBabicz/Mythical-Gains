@@ -13,7 +13,7 @@ html,body{
     font-size: 80px;
     color: white;
     text-shadow: -4px 4px 5px #FF5733;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 button{
     width: 105px;
@@ -251,6 +251,14 @@ a:hover{
 }
 .about .content{
     padding-bottom: 40px;
+}
+.about .content #border{
+    font-size: 23px;
+    margin: 20px auto;
+    width: 50vw;
+    text-align: center;
+    border: solid #FF5733;
+    border-radius: 4px;
 }
 .about .content p{
     padding: 13px 30px;

@@ -102,7 +102,7 @@ a:hover{
     line-height: 50px;
 }
 .service p{
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
     text-justify: distribute;
     text-align-last: left;
@@ -126,7 +126,6 @@ a:hover{
     text-transform: uppercase;
     color: #33ff00;
 }
-
 .service .dg{
     letter-spacing: 0.4px;
 }
@@ -145,6 +144,9 @@ a:hover{
     font-size: 25px;
     line-height: 40px;
 }
+.service #margin{
+    margin-top: 40px;
+}
 .service .dg .villam {
     list-style: "⚡";
     list-style-position: outside;
@@ -154,6 +156,7 @@ a:hover{
 }
 .service .dg .villam li{
     padding-left: 15px;
+    font-size: 20px;
 }
 .service .dg .szigony {
     list-style: "🔱";
@@ -164,6 +167,7 @@ a:hover{
 }
 .service .dg .szigony li{
     padding-left: 15px;
+    font-size: 20px;
 }
 .service .dg .kevert{
     padding-left: 20px;
@@ -174,24 +178,28 @@ a:hover{
     list-style-position: outside;
     text-align: justify;
     padding-left: 15px;
+    font-size: 20px;
 }
 .service .dg .kevert #squat {
     list-style: "🏋️‍♂️";
     list-style-position: outside;
     text-align: justify;
     padding-left: 15px;
+    font-size: 20px;
 }
 .service .dg .kevert #stock {
     list-style: "📈";
     list-style-position: outside;
     text-align: justify;
     padding-left: 15px;
+    font-size: 20px;
 }
 .service .dg .kevert #writing {
     list-style: "📝";
     list-style-position: outside;
     text-align: justify;
     padding-left: 15px;
+    font-size: 20px;
 }
 .service .dg .kevert li{
     padding-left: 15px;
@@ -205,6 +213,7 @@ a:hover{
 
 .jotform a{
     margin: 60px;
+    margin-bottom: 200px;
     padding: 10px 20px;
     align-items: center;
     text-align: center;
@@ -386,6 +395,31 @@ a:hover{
     .service{
         padding: 35px;
     }
+    .service .dg p{
+        font-size: 18px;
+    }
+    .service .dg .villam li{
+        font-size: 18px;
+    }
+    .service .dg .szigony li{
+        font-size: 18px;
+    }
+    .service .dg .kevert #muscle {
+        font-size: 18px;
+    }
+    .service .dg .kevert #squat {
+        font-size: 18px;
+    }
+    .service .dg .kevert #stock {
+        font-size: 18px;
+    }
+    .service .dg .kevert #writing {
+        font-size: 18px;
+    }
+    
+    
+    
+    
     label.logo{
         font-size: 28px;
         letter-spacing: 1.5px;
