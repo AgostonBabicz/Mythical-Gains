@@ -218,6 +218,8 @@ a:hover{
     display: none;
 }
 .about .aboutflex{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     gap: 30px;
@@ -226,7 +228,6 @@ a:hover{
 .about .aboutflex .flex-child{
     font-size: 30px;
     align-items: center;
-    
 }
 .about .aboutflex .flex-child #break{
     padding-bottom: 13px;
@@ -249,8 +250,13 @@ a:hover{
     border-radius: 30px;
     border: solid 2px;
 }
-.about .content{
+.about .content{ 
     padding-bottom: 40px;
+    margin:0 auto;
+    max-width: 1200px;
+}
+.about .content #orange{
+    color: #FF5733;
 }
 .about .content #border{
     font-size: 23px;
@@ -261,7 +267,7 @@ a:hover{
     border-radius: 4px;
 }
 .about .content p{
-    padding: 13px 30px;
+    padding: 13px 42px;
     text-align: justify;
     font-family: Merriweather;
     text-transform: capitalize;
