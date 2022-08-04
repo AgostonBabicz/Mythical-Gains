@@ -10,7 +10,7 @@ html,body{
 #label{
     text-align: center;
     padding: 20px;
-    font-size: 80px;
+    font-size: 8vw;
     color: white;
     text-shadow: -4px 4px 5px #FF5733;
     letter-spacing: 8px;
@@ -356,6 +356,9 @@ a:hover{
     #check:checked ~ ul{
       left: 0;
     }
+    #label{
+        font-size: 70px;
+    }
     .opening{
         padding-top: 20px;
         display:flex;
@@ -431,6 +434,9 @@ a:hover{
     #check:checked ~ ul{
       left: 0;
     }
+    #label{
+        font-size: 60px;
+    }
     .opening{
         display:flex;
         justify-content: center;
@@ -454,6 +460,15 @@ a:hover{
     }
     .open_box h2{
         font-size: 20px;
+    }
+    .about .content #border{
+        font-size: 23px;
+        margin: 20px auto;
+        padding: 10px;
+        width: 70vw;
+        text-align: center;
+        border: solid #FF5733;
+        border-radius: 5px;
     }
     .contacts h3{
         font-size: 20px;
