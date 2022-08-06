@@ -106,11 +106,13 @@ a:hover{
 .service p{
     font-size: 20px;
     text-align: justify;
+    text-justify: auto;
+    word-spacing: -2px;
     text-justify: distribute;
     text-align-last: left;
 }
 .service .highlight{
-    color: #ffbe33;
+    color: #FF5733;
     font-weight:bolder;
     text-transform:capitalize;
 }
@@ -119,7 +121,7 @@ a:hover{
     padding-bottom: 45px;
     font-size: 1.3em;
     text-transform: uppercase;
-    color: #ffe600;
+    color: #fbff00;
 }
 .service #green{
     padding-top: 45px;
@@ -135,11 +137,14 @@ a:hover{
     line-height:25px;
 }
 .service .strength{
+    border: solid 1px;
     display: flex;
     justify-content: center;
-    margin: 60px 40px;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 60px auto;
     padding: 10px;
-    list-style-position: outside;
+    list-style-position:inside;
 }
 .service .strength ol{
     list-style:upper-roman;
@@ -212,6 +217,7 @@ a:hover{
     list-style-position: outside;
     text-align: justify;
     padding-left: 15px;
+    padding-bottom: 90px;
     font-size: 20px;
 }
 .service .dg .kevert li{
@@ -256,6 +262,7 @@ a:hover{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .contacts .social{
     padding: 10px 20px;
@@ -270,8 +277,7 @@ a:hover{
     justify-content: space-between;
 }
 .contacts h3{
-    font-family: Bebas Kai;
-    margin-left: 20px;
+    font-family: bebas kai;
     padding: 20px;
     font-size: 30px;
 }
@@ -325,6 +331,9 @@ a:hover{
     #check:checked ~ ul{
       left: 0;
     }
+    #label{
+        font-size: 70px;
+    }
     .opening{
         padding-top: 20px;
         display:flex;
@@ -343,6 +352,25 @@ a:hover{
         font-size:30px;
         text-align: center;
     }
+    .about .aboutflex .flex-child{
+        display: none
+    }
+    .about .aboutflex img{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 40px auto;
+    }
+    .about .appear{
+        display: block;
+    }
+    .about .appear p{
+        padding: 0 30px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .about .content p{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 480px){
@@ -351,8 +379,8 @@ a:hover{
         top: 0px;
     }
     label.logo{
-        font-size: 25px;
-        padding-left: 40px;
+        font-size: 28px;
+        letter-spacing: 1.5px;
     }
     .checkbtn{
       display: block;
@@ -381,6 +409,9 @@ a:hover{
     #check:checked ~ ul{
       left: 0;
     }
+    #label{
+        font-size: 60px;
+    }
     .opening{
         display:flex;
         justify-content: center;
@@ -390,7 +421,7 @@ a:hover{
         background-size:cover;
     }
     .open_box{
-        margin-top: 10%;
+        margin-top: 5%;
         width: 160px;
         height: 160px;
     }
@@ -405,39 +436,19 @@ a:hover{
     .open_box h2{
         font-size: 20px;
     }
-    .service{
-        padding: 35px;
-    }
-    .service .dg p{
-        font-size: 18px;
-    }
-    .service .dg .villam li{
-        font-size: 18px;
-    }
-    .service .dg .szigony li{
-        font-size: 18px;
-    }
-    .service .dg .kevert #muscle {
-        font-size: 18px;
-    }
-    .service .dg .kevert #squat {
-        font-size: 18px;
-    }
-    .service .dg .kevert #stock {
-        font-size: 18px;
-    }
-    .service .dg .kevert #writing {
-        font-size: 18px;
-    }
-    
-    
-    
-    
-    label.logo{
-        font-size: 28px;
-        letter-spacing: 1.5px;
+    .about .content #border{
+        font-size: 23px;
+        margin: 20px auto;
+        padding: 10px;
+        width: 70vw;
+        text-align: center;
+        border: solid #FF5733;
+        border-radius: 5px;
     }
     .contacts h3{
         font-size: 20px;
+    }
+    .service{
+        padding: 35px;
     }
 }
