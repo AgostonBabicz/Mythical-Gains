@@ -255,22 +255,26 @@ a:hover{
     margin:0 auto;
     max-width: 1200px;
 }
+.about .content #orange1{
+    margin-bottom: 25px;
+    color: #FF5733;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
 .about .content #orange{
     color: #FF5733;
 }
 .about .content #border{
-    font-size: 23px;
-    margin: 20px auto;
-    width: 50vw;
+    margin: 40px auto;
+    text-transform: uppercase;
     text-align: center;
-    border: solid #FF5733;
-    border-radius: 4px;
+    max-width: 900px;
 }
 .about .content p{
     padding: 13px 42px;
     text-align: justify;
     font-family: Merriweather;
-    text-transform: capitalize;
     font-size: 21px;
 }
 
@@ -396,6 +400,9 @@ a:hover{
     .about .content p{
         font-size: 18px;
     }
+    .about .content #border p{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 480px){
@@ -462,12 +469,10 @@ a:hover{
         font-size: 20px;
     }
     .about .content #border{
-        font-size: 23px;
+        font-size: 21px;
         margin: 20px auto;
-        padding: 10px;
         width: 70vw;
         text-align: center;
-        border: solid #FF5733;
         border-radius: 5px;
     }
     .contacts h3{
