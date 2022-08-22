@@ -104,28 +104,40 @@ a:hover{
     line-height: 50px;
 }
 .service p{
-    font-size: 20px;
-    text-align: justify;
-    text-justify: auto;
-    word-spacing: -2px;
+    font-size: 18px;
+    /* text-align:justify;
+    text-justify: inter-word;
+    text-align-last:left; */
+    /* text-align: justify;
+    overflow: hidden; */
+    /* text-justify: inter-character; */
+    /* word-spacing: -2px;
     text-justify: distribute;
-    text-align-last: left;
+    text-align-last: left; */
 }
 .service .highlight{
     color: #FF5733;
     font-weight:bolder;
+    font-size: 20px;
     text-transform:capitalize;
 }
 .service #big{
+    margin: 50px auto;
+    max-width: 450px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break:normal;
     padding-top: 45px;
     padding-bottom: 45px;
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-transform: uppercase;
-    color: #fbff00;
+    letter-spacing: 5px;
+    color: white;
+    line-height: 30px;
+    
+    /* color: #fbff00; */
 }
 .service #green{
-    padding-top: 45px;
-    padding-bottom: 45px;
     font-size: 1.2em;
     text-transform: uppercase;
     color: #33ff00;
@@ -155,36 +167,39 @@ a:hover{
     line-height: 40px;
 }
 .service #margin{
-    
     display: flex;
     justify-content: center;
     text-align: center;
     text-align-last: center;
     text-transform: uppercase;
     font-size: 25px;
-    width: 80vw;
-    margin: 90px auto 30px auto;
+    width: 60vw;
+    margin: 150px auto 40px auto;
 }
 .service .dg .villam {
     list-style: "⚡";
     list-style-position: outside;
-    text-align: justify;
+    text-align: left;
     padding-left: 20px;
     line-height: 30px;
 }
 .service .dg .villam li{
+    letter-spacing: 3px;
+    padding-top: 15px;
     padding-left: 15px;
     font-size: 20px;
 }
 .service .dg .szigony {
     list-style: "🔱";
     list-style-position: outside;
-    text-align: justify;
+    text-align: left;
     padding-left: 20px;
     line-height: 30px;
 }
 .service .dg .szigony li{
+    letter-spacing: 3px;
     padding-left: 15px;
+    padding-top: 15px;
     font-size: 20px;
 }
 .service .dg .kevert{
@@ -194,34 +209,39 @@ a:hover{
 .service .dg .kevert #muscle {
     list-style: "💪";
     list-style-position: outside;
-    text-align: justify;
+    text-align: left;
     padding-left: 15px;
     font-size: 20px;
+    padding-top: 15px;
 }
 .service .dg .kevert #squat {
     list-style: "🏋️‍♂️";
     list-style-position: outside;
-    text-align: justify;
+    text-align: left;
     padding-left: 15px;
     font-size: 20px;
+    padding-top: 15px;
 }
 .service .dg .kevert #stock {
     list-style: "📈";
     list-style-position: outside;
-    text-align: justify;
+    text-align: left;
     padding-left: 15px;
     font-size: 20px;
+    padding-top: 15px;
 }
 .service .dg .kevert #writing {
     list-style: "📝";
     list-style-position: outside;
-    text-align: justify;
+    text-align: left;
     padding-left: 15px;
     padding-bottom: 90px;
     font-size: 20px;
+    padding-top: 15px;
 }
 .service .dg .kevert li{
     padding-left: 15px;
+    letter-spacing: 3px;
 }
 
 
@@ -411,6 +431,31 @@ a:hover{
     }
     #label{
         font-size: 60px;
+    }
+    .service p{
+        font-size: 15px;
+    }
+    .service .highlight{
+        font-size: 17px;
+    }
+    .service #big{
+        margin: 50px auto;
+        max-width: 450px;
+        text-align: center;
+        text-justify: inter-word;
+        word-break:normal;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: white;
+        line-height: 30px;
+        
+        /* color: #fbff00; */
+    }
+    .service #margin{
+        width: 75vw;
     }
     .opening{
         display:flex;
