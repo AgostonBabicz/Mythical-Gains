@@ -1,0 +1,29 @@
+body,html{
+    font-family: Helvetica;
+    margin: 0;
+    height: 100%;
+}
+.open{
+    height: 100%;
+    background-image: url("/Images/Hero_F.png");
+    background-position: center;
+}
+.navbar{
+    padding: 0;
+    background-color: #121207;
+}
+.nav-item{
+    padding-left: 20px;
+    font-size: 17px;
+}
+.navbar-brand
+{
+    text-transform: uppercase;
+    font-family: Bebas Kai;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.open_box{
+    border: solid 1px;
+
+}
